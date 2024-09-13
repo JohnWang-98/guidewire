@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "GuidewireAID",
+    "slug": "GuidewireAID",
+    "version": "2.0.7",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.mountsinai.guidewire-aid",
+      "buildNumber": "29",
+      "requireFullScreen": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.icando320.GuidewireAID",
+      "versionCode": 2,
+      "icon": "./assets/ic_launcher.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic_launcher_foreground.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+  }
+}
